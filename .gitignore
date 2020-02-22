@@ -40,5 +40,7 @@ Thumbs.db
 /.yardoc
 /_yardoc/
 /pkg/
+/spec/internal/log/
+/spec/internal/tmp/
 /tmp/
 /travis/gemfiles/*.gemfile.lock
