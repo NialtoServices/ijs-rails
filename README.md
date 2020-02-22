@@ -18,7 +18,21 @@ gem 'ijs-rails', '~> 0.1'
 
 ### Usage
 
-TBD
+Let's start with an example script *hello.js* which should be saved in the *app/javascript/inline* directory.
+
+```js
+//
+// Example Script
+//
+
+alert('Hello, World!');
+```
+
+Next in a view, use the *render_ijs* method to render a *<script>* tag containing the minified script:
+
+```ruby
+<%= render_ijs 'hello' %>
+```
 
 ## Development
 
