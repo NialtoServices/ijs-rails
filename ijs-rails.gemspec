@@ -23,13 +23,13 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'activerecord',  '>= 3.0.0'
   spec.add_runtime_dependency 'activesupport', '>= 3.0.0'
-
-  spec.add_development_dependency 'bundler',     '~> 2.1'
-  spec.add_development_dependency 'combustion',  '~> 1.1'
-  spec.add_development_dependency 'guard-rspec', '~> 4.7'
-  spec.add_development_dependency 'rake',        '~> 13.0'
-  spec.add_development_dependency 'rspec',       '~> 3.9'
-  spec.add_development_dependency 'rspec-rails', '~> 3.9'
-  spec.add_development_dependency 'rubocop',     '~> 0.80.0'
-  spec.add_development_dependency 'yard',        '~> 0.9.24'
+  spec.add_development_dependency 'bundler',             '~> 2.1'
+  spec.add_development_dependency 'combustion',          '~> 1.1'
+  spec.add_development_dependency 'guard-rspec',         '~> 4.7'
+  spec.add_development_dependency 'rake',                '~> 13.0'
+  spec.add_development_dependency 'rspec',               '~> 3.9'
+  spec.add_development_dependency 'rspec-html-matchers', '~> 0.9.2'
+  spec.add_development_dependency 'rspec-rails',         '~> 3.9'
+  spec.add_development_dependency 'rubocop',             '~> 0.80.0'
+  spec.add_development_dependency 'yard',                '~> 0.9.24'
 end

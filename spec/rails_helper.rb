@@ -27,4 +27,4 @@ require 'spec_helper'
 # It has the downside of increasing the boot-up time by auto-requiring all files in the support directory.
 # Alternatively, in the individual `*_spec.rb` files, manually require only the support files necessary.
 #
-Dir[Rails.root.join('spec/support/**/*.rb')].sort.each { |f| require f }
+Dir[Rails.root.join('../support/**/*.rb')].sort.each { |f| require f }
