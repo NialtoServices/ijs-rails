@@ -1,0 +1,44 @@
+##
+# OS Files
+##
+
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+##
+# Databases
+##
+
+*.sqlite
+
+##
+# Logs
+##
+
+*.log
+
+##
+# Packages
+##
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+##
+# Ruby Files
+##
+
+/.bundle/
+/.yardoc
+/_yardoc/
+/pkg/
+/tmp/
+/travis/gemfiles/*.gemfile.lock
