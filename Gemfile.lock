@@ -2,8 +2,8 @@ PATH
   remote: .
   specs:
     ijs-rails (0.1.0)
-      activerecord (>= 3.0.0)
-      activesupport (>= 3.0.0)
+      activerecord (>= 6.0.0)
+      activesupport (>= 6.0.0)
       uglifier (>= 2.3)
 
 GEM
