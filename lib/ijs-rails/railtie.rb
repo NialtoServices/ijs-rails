@@ -14,5 +14,11 @@ module IJSRails
         config.inline_js.isolate_scripts = true
       end
     end
+
+    initializer 'inline_js.action_view_helpers' do
+      ActiveSupport.on_load(:action_view) do
+        ActionView::Base.include(IJSRails::ActionViewHelpers)
+      end
+    end
   end
 end
