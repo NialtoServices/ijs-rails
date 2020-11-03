@@ -5,7 +5,6 @@ ENV['RAILS_ENV'] ||= 'test'
 require 'bundler'
 require 'combustion'
 
-Bundler.require :default, :test
 Combustion.initialize! :action_controller, :action_view
 
 # Prevent database truncation if the environment is production.
