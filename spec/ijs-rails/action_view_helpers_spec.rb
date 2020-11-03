@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+Combustion::Application.attr_reader(:content_security_policy_nonce)
+
 RSpec.describe IJSRails::ActionViewHelpers do
   subject(:view) { ActionController::Base.new.view_context }
 
@@ -9,7 +11,7 @@ RSpec.describe IJSRails::ActionViewHelpers do
     subject { view.render_ijs(name) }
 
     it 'returns an HTML <script> tag containing the script' do
-      expect(subject).to have_tag(:script, text: 'alert("Hello, World!");')
+      expect(subject).to have_tag(:script, text: /alert\("Hello, World!"\);/)
     end
 
     context 'when :type is provided' do
