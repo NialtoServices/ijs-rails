@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata['yard.run'] = 'yri'
 
-  spec.add_runtime_dependency 'actionview',    '~> 6.0'
+  spec.add_runtime_dependency 'actionview',    '>= 6', '< 8'
   spec.add_runtime_dependency 'activesupport', '~> 6.0'
   spec.add_runtime_dependency 'uglifier',      '~> 4.2'
 
